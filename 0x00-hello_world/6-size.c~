@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+*main-calculating bytes
+*
+*Return: Always 0 (Sucess)
+*/
+int main(void)
+{
+printf("Size of char: %zu bytes\n", size of (char))
+return (0);
+}
