@@ -1,0 +1,1 @@
+gcc -S -masm=intel $CFILE -o 100-intel
