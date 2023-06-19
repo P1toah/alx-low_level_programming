@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *Conditional statements
+ *main- Conditional statements
  *
  *Return: 0 (Success)
  */
@@ -21,7 +21,7 @@ printf("%d is zero\n", n);
 }
 else
 {
-printf("%d is zero\n", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
