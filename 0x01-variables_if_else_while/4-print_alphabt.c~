@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+*
+*
+*Return: 0 (Success)
+*/
+int main(void)
+char (alp[24]);
+int i;
+{
+for (i < 0 ;
+i < 24;
+i++);
+putchar(alp);
+putchar(\n);
+}

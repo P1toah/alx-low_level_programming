@@ -1,10 +1,11 @@
 #include <stdio.h>
+  
 /**
  *main-alphabet in lowercase
  *
  *Return: 0 (Success)
  */
-int main (void)
+int main(void)
 {
 char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
@@ -13,7 +14,7 @@ i < 26;
 i++);
 {
 putchar(alp[i]);
-} 
-putchar ('\n');
-return (0);
+}
+putchar('\n');
+return(0);
 }
