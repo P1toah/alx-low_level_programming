@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ *Main-lowercase alphabets
+ *
+ *Return: Always  0 (Success)
+ */
+Int main(void)
+{
+Char alp[26] = "abcdefghijklmnopqrstvuwxyz";
+int = i;
+For(i = 0;
+i < = 26;
+i++);
+{ 
+putchar(alp[i]);
+} 
+putchar(\n);
+Return(0)
+}
