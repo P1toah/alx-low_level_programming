@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- *main-alphabet in lowercase
+ *main- alphabet in lowercase
  *
  *Return: 0 (Success)
  */
 int main(void)
 {
-char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+char alp[26] =  "abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i = 0;
 i < 26;
