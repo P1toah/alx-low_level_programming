@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- *swap_intergers- intergers a and b
- *@a:first interger a
- *@b: second interger b
+ *swap_int -Intergers a and b
+ *@a: The first interger a
+ *@b: The second interger b
+ *
+ *Description: This function takes the intergers and swaps them.
  */
 void swap_int(int *a, int *b)
 {
