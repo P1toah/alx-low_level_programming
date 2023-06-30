@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ *_strcmp - compare two strings
+ *@s1: First string
+ *@s2: second string
+ *
+ *Description: This function compares s1 to s2
+ *
+ *Return: Intergers <=/> when s1 is found
+ */
