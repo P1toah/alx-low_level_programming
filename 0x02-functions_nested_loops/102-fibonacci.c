@@ -22,10 +22,10 @@ for (i = 0; i < 50; i++)
 {
 printf("%d", fib[i]);
 
-if (i < 49)
-printf(", ");
-else
+if (i == 49)
 printf("\n");
+else
+printf(", ");
 }
 return (0);
 }
