@@ -6,7 +6,7 @@
  *@c: first occurrence of the character
  *Description: This function locates a character in a string
  *
- *Return: Returns or s or NULL
+ *Return: Returns s or NULL
  */
 char *_strchr(char *s, char c)
 {
