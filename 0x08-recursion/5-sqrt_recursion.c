@@ -11,21 +11,27 @@ int _sqrt_recursion(int n)
 if (n < 0)
 return (-1);
 
-return (find_sqrt(n, 1));
+return (find_sqrt(n, 0, n));
 }
 /**
  *find_sqrt - helper function to find square root
  *@n: the number to find square root for
- *@guess: guess of the square root
+ *@start: starting point of search
+ *@end: ending point of search
  *
  *Return: n square root else -1
  */
-int find_sqrt(int n, int guess)
+int find_sqrt(int n, int start, int end)
 {
-if (guess * guess == n)
-return (n);
-else if (guess * guess > n)
+int mid = ((start + end) / 2);
+if (start <= end)
+{
+if (mid * mid == n)
+return (mid);
+else if (mid * mid > n)
+return (find_sqrt(n, start, mid - 1));
+else
+return (find_sqrt(n, mid + 1, end));
+}
 return (-1);
-
-return (find_sqrt(n, guess + 1));
 }
