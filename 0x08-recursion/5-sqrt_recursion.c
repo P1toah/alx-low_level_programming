@@ -24,9 +24,9 @@ return (find_sqrt(n, 0, n / 2 + 1));
  */
 int find_sqrt(int n, int start, int end)
 {
-int mid = ((start + end) / 2);
-if (start <= (end - start) / 2)
+if (start <= end)
 {
+int mid = ((start + (end - start)) / 2);
 if (mid * mid == n)
 return (mid);
 else if (mid * mid > n)
