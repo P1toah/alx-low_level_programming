@@ -12,7 +12,7 @@ if (n < 0)
 return (-1);
 if (n == 0 || n == 1)
 return (n);
-return (find_sqrt(n, 0, n / 2 + 1));
+return (find_sqrt(n, 0, n));
 }
 /**
  *find_sqrt - helper function to find square root
@@ -26,7 +26,7 @@ int find_sqrt(int n, int start, int end)
 {
 if (start <= end)
 {
-int mid = ((start + (end - start)) / 2);
+int mid = (start + end);
 if (mid * mid == n)
 return (mid);
 else if (mid * mid > n)
@@ -34,5 +34,5 @@ return (find_sqrt(n, start, mid - 1));
 else
 return (find_sqrt(n, mid + 1, end));
 }
-return (start - 1);
+return (-1);
 }
