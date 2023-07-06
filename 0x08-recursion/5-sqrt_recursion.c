@@ -34,5 +34,5 @@ return (find_sqrt(n, start, mid - 1));
 else
 return (find_sqrt(n, mid + 1, end));
 }
-return (-1);
+return (start - 1);
 }
